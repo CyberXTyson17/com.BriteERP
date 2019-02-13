@@ -23,8 +23,8 @@ public class PipelinePage extends CRMpage {
     @FindBy(xpath ="/html/body/div[1]/div[2]/div[1]/div[2]/div[1]/div[2]/button[2]")
     public WebElement line_Chart;
 
-//    @FindBy(xpath ="/html/body/div[1]/div[2]/div[1]/div[2]/div[1]/div[2]/button[1]")
-//    public WebElement Bar_Chart;
+ @FindBy(xpath ="/html/body/div[1]/div[2]/div[1]/div[2]/div[1]/div[2]/button[1]") // turn off
+   public WebElement Bar_Chart;
 
     @FindBy(xpath = "//ol[@class='breadcrumb']/li")
     public WebElement piplinePage_Title;
