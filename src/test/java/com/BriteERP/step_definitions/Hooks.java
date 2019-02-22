@@ -12,7 +12,7 @@ public class Hooks {
 
     @Before
     public void setUp() {
-        Driver.getDriver().manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+        Driver.getDriver().manage().timeouts().implicitlyWait(50, TimeUnit.SECONDS);
         Driver.getDriver().manage().window().maximize();
     }
 
@@ -23,7 +23,7 @@ public class Hooks {
             scenario.embed(screenshot, "image/png");
         }
 
-        Driver.closeDriver();
+       Driver.closeDriver();
     }
 }
 

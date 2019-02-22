@@ -77,6 +77,7 @@ public class Driver {
 
 
     public static WebDriver getDriver(){
+
         return Driver.getDriver(null);
     }
 

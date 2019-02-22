@@ -5,6 +5,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import java.nio.channels.Selector;
+
 
 public class ActivitiesPage {
 
@@ -13,20 +15,21 @@ public class ActivitiesPage {
     }
 
 
-    @FindBy(xpath = "/html/body/div[1]/div[2]/div[1]/div[1]/div/span")
+    @FindBy(xpath = "//span[@title='Advanced Search...']")
+   // /html/body/div[1]/div[2]/div[1]/div[1]/div/span
     public WebElement searchButton;
 
     @FindBy(xpath = "/html/body/div[1]/div[2]/div[1]/div[3]/div[1]/div[2]/button")
     public WebElement groupClick;
 
-
-    @FindBy(xpath = "/html/body/div[1]/div[2]/div[1]/div[3]/div[1]/div[3]/button")
+    @FindBy(xpath = "//span[@class='fa fa-star']")
     public WebElement favoritesClick;
 
     @FindBy(xpath = "/html/body/div[1]/div[2]/div[1]/div[3]/div[1]/div[1]/button")
     public WebElement filtersClick;
 
-    @FindBy(xpath = "/html/body/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/button")
+    @FindBy(xpath = "(//span[@class='caret'])[1]")
     public WebElement measuresClick;
+
 
 }
