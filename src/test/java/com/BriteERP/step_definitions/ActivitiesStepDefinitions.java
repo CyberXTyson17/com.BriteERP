@@ -95,7 +95,7 @@ public class ActivitiesStepDefinitions {
     @Then("Click on Measure")
     public void click_on_Measure() throws Exception {
 
-        Thread.sleep(2000);
+//        Thread.sleep(2000);
         activitiesPage.measuresClick.click();
         Assert.assertTrue(activitiesPage.measuresClick.isDisplayed());
         System.out.println("clicked on Measure successfully");
