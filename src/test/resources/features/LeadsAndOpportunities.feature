@@ -10,7 +10,7 @@ Feature: Leads and Opportunities
     When user goes to leads and opportunities
     And user clicks on lead tags
 
-    @wip
+  @wip
     Scenario Outline: user should modify lost reasons
       Given user logs in using "EventsCRM_Manager@info.com" and "Ugh45wQ12"
       And user clicks on crm
@@ -30,4 +30,9 @@ Feature: Leads and Opportunities
       |Mike             |
       |Mesut Duman      |
 
-
+      @wip
+      Scenario: user should modify lead tags
+        Given user logs in using "EventsCRM_Manager@info.com" and "Ugh45wQ12"
+        And user clicks on crm
+        When user goes to leads and opportunities
+        And user clicks on lead tags

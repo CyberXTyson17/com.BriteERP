@@ -33,5 +33,15 @@ public class Leads_And_OpportunitiesPage {
     @FindBy(xpath = "//*[@id=\"modal_768\"]/div/div/div[3]/div/footer/button[1]/span")
     public WebElement secondCreate;
 
+    @FindBy(xpath = "//button[@class='btn btn-primary btn-sm o_list_button_add']")
+    public WebElement leadTgsCreateButton;
+
+    @FindBy(xpath = "//input[@id='o_field_input_94']")
+    public WebElement leadTgsName;
+
+    @FindBy (xpath = "//button[@class='btn btn-primary btn-sm o_form_button_save']")
+    public WebElement leadTgsSaveButton;
+
+
 
 }
