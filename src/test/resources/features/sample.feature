@@ -33,8 +33,8 @@ Feature: As an inventory user I should be able discard some of the available qua
 
 
 #    we created background manually, scnerio is from JIRA
-#  whatever we write as tag in JIRA appears here as tag in addition to the JIRA Key, since we have written before inventorty and online 2
-#  we have deleted these, we can add meaningful tags
+##  whatever we write as tag in JIRA appears here as tag in addition to the JIRA Key, since we have written before inventorty and online 2
+##  we have deleted these, we can add meaningful tags
 
 #  last phrase of the background is as same as first step of scenario to see that we all done in dry run
 #  we have extented step def classes to Browser utilities to use all useful methods
